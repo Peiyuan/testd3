@@ -1,0 +1,26 @@
+{
+	"data":{
+		"db_view_1":{
+			"type":"haha",
+			"name":"db_view_1",
+			"depends":["db_view_2"],
+			"dependedOnBy":[],
+			"docs":"<h2>db&#95;view&#95;1 <em>haha<\/em><\/h2>\n\n<div class=\"alert alert-warning\">No documentation for this object<\/div>\n\n<h3>Depends on<\/h3>\n\n<ul>\n<li><a href=\"#obj-db-view-2\" class=\"select-object\" data-name=\"db_view_2\">db&#95;view&#95;2<\/a><\/li>\n<\/ul>\n\n<h3>Depended on by <em>(none)<\/em><\/h3>\n"
+		},
+		"db_view_2":{
+			"type":"view",
+			"name":"db_view_2",
+			"depends":[],
+			"dependedOnBy":["db_view_1","db_view_3"],
+			"docs":"<h2>db&#95;view&#95;2 <em>Database view<\/em><\/h2>\n\n<div class=\"alert alert-warning\">No documentation for this object<\/div>\n\n<h3>Depends on <em>(none)<\/em><\/h3>\n\n<h3>Depended on by<\/h3>\n\n<ul>\n<li><a href=\"#obj-db-view-1\" class=\"select-object\" data-name=\"db_view_1\">db&#95;view&#95;1<\/a><\/li>\n<li><a href=\"#obj-db-view-3\" class=\"select-object\" data-name=\"db_view_3\">db&#95;view&#95;3<\/a><\/li>\n<\/ul>\n"
+		},
+		"db_view_3":{
+			"type":"view",
+			"name":"db_view_3",
+			"depends":["db_view_2"],
+			"dependedOnBy":[],
+			"docs":"<h2>db&#95;view&#95;3 <em>Database view<\/em><\/h2>\n\n<div class=\"alert alert-warning\">No documentation for this object<\/div>\n\n<h3>Depends on<\/h3>\n\n<ul>\n<li><a href=\"#obj-db-view-2\" class=\"select-object\" data-name=\"db_view_2\">db&#95;view&#95;2<\/a><\/li>\n<\/ul>\n\n<h3>Depended on by <em>(none)<\/em><\/h3>\n"
+		 }
+ 	},
+ 	"errors":[]
+}
